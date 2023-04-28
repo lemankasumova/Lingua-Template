@@ -1,0 +1,142 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.topnavbar {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(199, 179, 179);
+    display: flex;
+    align-items: center;
+}
+.phone p {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.4);
+    margin-left: 90px;
+}
+.langua {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.4); 
+}
+.lang {
+    margin-left: 550px;
+    display: flex;
+}
+.follow p {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.4);  
+    padding-top: 3px; 
+}
+.follow {
+    display: flex;
+    margin-left: 120px;
+    gap: 10px;
+}
+.icon1 {
+    color: rgba(0,0,0,0.4) ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icon1:hover {
+    color: black;
+}
+#language {
+    border: 0;
+    color: rgba(0,0,0,0.4);
+    outline: none;
+    cursor: pointer;
+}
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+
+}
+.navbar h2 {
+    color: #2E21DF;
+    margin-left: 60px;
+}
+.navbarlist {
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+}
+.navbarlist li a {
+    color: rgba(0,0,0,0.4); 
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.navbarlist li a:hover {
+    color: black;
+}
+.sideicons {
+    margin-right: 110px;
+}
+.icon2 {
+    border-radius: 50%;
+    background-color: rgba(43, 37, 37, 0.4);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icon2:hover {
+    color: black;
+}
+.icon3 {
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/index_background.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ease {
+    text-align: center;
+    padding-top: 100px;
+}
+.get {
+    text-align: center;
+    padding-top: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.get span {
+    padding: 15px 50px;
+    font-size: 12px;
+    background-color: #2E21DF;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.flags {
+    width: 75%;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.container2 {
+    width: 100%;
+    height: auto;
+}
