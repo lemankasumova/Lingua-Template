@@ -136,7 +136,172 @@ body {
     margin: 0 auto;
     margin-top: 50px;
 }
-.container2 {
+
+/* why hover doesn't work? */
+.icon3:hover {
+    color: black;
+}
+.container1 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.flags {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.maindiv {
+    width: 50px;
+    height: auto;
+}
+.maindiv img {
+    width: 100%;
+}
+.text h3 {
+    font-size: 13px;
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;  
+    cursor: pointer;
+    transition: 0.5s;
+}
+.text h3:hover {
+    color: black;
+}
+.text {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.headingcourses {
+    padding-top: 130px;
+    text-align: center;
+}
+.list1 {
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: #F8F8F8;
+}
+.list1 img {
+    width: 350px;
+}
+.list_courses {
+    padding-top: 60px;
+    display: flex;
+    gap: 25px;
+}
+.vocabulary {
+    padding: 25px;
+    width: 100%;
+    height: 170px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+.vocabulary h3 {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.vocabulary h3:hover {
+    color: #2E21DF;
+}
+.vocabulary h4 {
+    margin-top: 10px;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.vocabulary h4:hover {
+    color: black;
+}
+.vocabulary p {
+    margin-top: 20px;
+    color: rgba(0,0,0,0.4);
+}
+.foot {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex; 
+    padding: 15px;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.4);
+}
+.free {
+    font-size: 14px;
+    padding: 13px 18px;
+    background-color: #2E21DF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no {
+    font-size: 14px;
+    padding: 13px 18px;
+    background-color: #F9CF0E;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teachers {
+    width: 100%;
+    padding-top: 100px;
+    background-color: #f8f8f8;
+}
+.back {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 567px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.best {
+    text-align: center;
+    padding-top: 25px;
+}
+.teacher1 {
+    width: calc(100% / 3);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.teacher1 img {
+    width: 170px;
+    border-radius: 50%;
+    border: 15px solid #F8F8F8;
+}
+.listteachers {
+    padding-top: 60px;
+    display: flex;
+    gap: 25px;
+}
+.teachertext {
+    text-align: center;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 150px;
+}
+.teachertext p {
+    color: rgba(0,0,0,0.4) ;
+    padding-top: 15px;
+}
+.iconteach {
+    color: #2E21DF;
+}
+.teachericon ul li {
+    display: inline-block;
+    color: #2E21DF;
+    margin-right: 15px;
 }
